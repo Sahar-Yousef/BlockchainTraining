@@ -2,6 +2,13 @@ pragma solidity ^0.5.1;
 
 contract helloWorld {
 
+
+ function renderHelloWorld () public pure returns (string memory) {
+
+   return 'helloWorld';
+
+ }
+
  function IsMultibale(uint n, uint m) public view returns (bool) {
      bool x;
      if (n % m == 0) {
@@ -21,4 +28,6 @@ contract helloWorld {
      }
      return y;
  }
+ 
+ 
 }
