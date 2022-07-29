@@ -2,7 +2,7 @@ pragma solidity ^0.5.1;
 
 contract helloWorld {
 
-
+///
  function renderHelloWorld () public pure returns (string memory) {
 
    return 'helloWorld';
@@ -29,5 +29,15 @@ contract helloWorld {
      return y;
  }
  
+ //funcation yes count
+  function Max(uint n, uint m) public view returns (uint) {
+     uint y;
+     if (n > m) {
+         y = n;
+     } else {
+         y = m;
+     }
+     return y;
+ }
  
 }
